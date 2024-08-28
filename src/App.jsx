@@ -8,7 +8,6 @@ import Mens from './Pages/Mens'
 import Womens from './Pages/Womens'
 import Jewelery from './Pages/Jewelery'
 import Cart from './Pages/Cart'
-// import { BrowserRouter, Route, Routes } from 'react-router-dom';
 import { BrowserRouter,Route,Routes } from 'react-router-dom';
 import Login from './Pages/Login';
 import { UserProvider } from './components/userContext';

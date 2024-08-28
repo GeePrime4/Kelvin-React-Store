@@ -1,11 +1,9 @@
 import React, { useEffect, useState } from 'react';
 import { FaCloudRain, FaStar } from 'react-icons/fa';
-import { useNavigate } from 'react-router-dom';
 import { useCart } from './CartContext';
 
 function FetchJewelery() {
-    const [jewelery, setJewelery] = useState([]);
-    const navigate = useNavigate();
+    const [jewelery, setJewelery] = useState([]);    
     const { addToCart } = useCart();
 
     const fetchJewelery = async () => {

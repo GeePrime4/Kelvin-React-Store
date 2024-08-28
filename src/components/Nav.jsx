@@ -1,7 +1,6 @@
 import { Link, NavLink, Outlet } from "react-router-dom"
 import React, { useContext } from 'react'
-import { BiCart, BiLogoAmazon, BiSolidUser } from 'react-icons/bi'
-import { FaCartArrowDown } from "react-icons/fa"
+import {BiLogoAmazon, BiSolidUser } from 'react-icons/bi'
 import { FaCartShopping } from "react-icons/fa6"
 import "./style.css"
 import { UserContext } from "./userContext"

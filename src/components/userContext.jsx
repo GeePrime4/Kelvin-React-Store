@@ -1,6 +1,5 @@
 import { useEffect } from "react";
 import { createContext, useState } from "react";
-import App from "../App";
 
 const UserContext = createContext();
 const UserProvider = ({ children }) => {

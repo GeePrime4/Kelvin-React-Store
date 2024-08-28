@@ -4,7 +4,7 @@ import jeweleries from "../img/jeweleries.jpg";
 import menscloths from "../img/menscloths.jpg";
 import womensclothes from "../img/womensclothes.jpg";
 import "./style.css"
-import { Link, NavLink } from 'react-router-dom';
+import { Link } from 'react-router-dom';
 function FetchCategories() {
     const categories = ["Electronics", "Jewelery", "Men's Clothing", "Women's Clothing"]
     return (
