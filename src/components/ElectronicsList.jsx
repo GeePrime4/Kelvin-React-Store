@@ -1,5 +1,4 @@
 import React, { useEffect, useState } from 'react'
-// import { BsChevronDown } from 'react-icons/bs';
 import Banner from './Banner';
 
 function ElectronicsList() {
